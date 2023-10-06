@@ -1,0 +1,14 @@
+{% extends "master.html" %}
+
+{% block title %}
+    customers details
+{% endblock %}
+
+
+{% block content %}
+    <h1>{{mydlsapp.firstname}} {{mydlsapp.lastname}}</h1>
+    <p>Phone: {{mydlsapp.phone}}</p>
+    <p> Member since: {{mydlsapp.joined_date}}</p>
+    <p>back to <a href="/dlsapp">Dls</a></p>
+
+{% endblock %}
